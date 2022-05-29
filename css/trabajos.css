@@ -1,0 +1,107 @@
+body .main .trabajos {
+	width: 80%;
+	margin: auto;
+	z-index: 2000;
+	background: transparent;
+	padding: 0;
+}
+
+body .main .trabajos .contenedor {
+	overflow: hidden;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+body .main .trabajos .contenedor .titulo {
+	color: #48A2D6;
+	font-size: 34px;
+	line-height: 34px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+}
+
+body .main .trabajos .contenedor .contenedor-trabajos {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+body .main .trabajos .contenedor .contenedor-trabajos .trabajo {
+	width: 28%;
+	margin-bottom: 0px; /*ANTES 40*/
+}
+
+body .main .trabajos .contenedor .contenedor-trabajos .trabajo:hover {
+    transform: scale(1.1);
+    transition: all .6s;
+}
+
+body .main .trabajos .contenedor .contenedor-trabajos .trabajo .thumb {
+	width: 100%;
+}
+
+body .main .trabajos .contenedor .contenedor-trabajos .trabajo .thumb img {
+	width: 100%;
+}
+
+body .main .trabajos .contenedor .contenedor-trabajos .trabajo .descripcion {
+	text-align: center;
+}
+
+body .main .trabajos .contenedor .contenedor-trabajos .trabajo .descripcion .nombre {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #3895ea;
+	font-size: 1em;
+	margin-bottom: -15px;
+}
+
+body .main .trabajos .contenedor .contenedor-trabajos .trabajo .descripcion .categoria {
+	font-size: 14px;
+	color: #cfcfcf;
+}
+
+.trabajos .mas {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    /* padding: 15px 10px; */
+    /* background: #479FD3; */
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+}
+
+.trabajos .mas a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.trabajos .mas:hover {
+    /* background-color: #111320; */
+    transition: all .6s; 
+}
+
+.trabajos .mas:hover > a {
+    color: #E61479;
+    transition: all 1.5s;
+    text-shadow: 0px 0px 15px #fff;
+}
+
+@media screen and (max-width: 900px){
+	body .main .trabajos .contenedor .contenedor-trabajos .trabajo {
+		width: 38%;
+		margin-bottom: 25px;
+	  }
+}
+
+@media screen and (max-width: 600px){
+    body .main .trabajos .contenedor .contenedor-trabajos .trabajo {
+		width: 60%;
+		margin-bottom: 25px;
+	  }
+}

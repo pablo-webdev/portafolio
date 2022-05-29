@@ -1,0 +1,55 @@
+/* body {
+    background: #1C1C1C;
+} */
+
+/* body .main .giratorio {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+} */
+
+/* body .main .contenedor-lunar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+/* body .main .contenedor-lunar .img-rotatoria {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+} */
+
+/* body .main .contenedor-lunar .img-rotatoria img {
+  width: 100%;
+  animation: 25s rotate linear infinite;
+  -webkit-animation: 25s rotate linear infinite;
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+} */
+
+/* KEY FRAMES DE LA ANIMACIÓN CIRCULAR ------------------------------------------------------------------ */
+/* @keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body .main .contenedor-lunar .texto {
+  text-align: justify;
+  width: 70%;
+  color: #18FA24;
+} */

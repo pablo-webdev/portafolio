@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\..\\xampp\\htdocs\\weekend"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\Trucos-CSS-master\\Trucos-CSS-master\\26 - Barras de progreso semicirculares"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Portafolio-Pablo"
+	}
+}

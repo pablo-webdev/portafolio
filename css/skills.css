@@ -1,0 +1,56 @@
+.habilidades {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+.habilidades .skill {
+    width: 20%;
+    margin-bottom: 45px;
+}
+
+.habilidades .skill p {
+    color: #fff;
+}
+
+.habilidades .skill i {
+    font-size: 100px;
+    text-shadow: 2px 2px 30px rgb(80, 76, 129);
+}
+
+.html i {
+    color: #E96228;
+}
+
+.css i {
+    color: #0F6CB9;
+}
+
+.js i {
+    color: #F3CD40;
+}
+
+.sass i {
+    color: #C76494;
+}
+
+.wp i {
+    color: #439FC4;
+}
+
+@media screen and (max-width: 900px) {
+    .habilidades {
+        justify-content: center;
+    }
+
+    .habilidades .skill {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .habilidades .skill {
+        width: 100%;
+    }
+}

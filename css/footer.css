@@ -1,0 +1,31 @@
+footer .redes-sociales {
+	background: #161C23;
+	padding: 60px 0;
+}
+
+footer .redes-sociales .contenedor {
+	display: flex;
+	justify-content: center;
+}
+
+footer .redes-sociales .contenedor a {
+	color: #fff;
+	text-align: center;
+	width: 100px;
+	display: block;
+	padding: 15px 0;
+	border-radius: 3px;
+	font-size: 30px;
+	margin: 0 140px;
+}
+
+footer .redes-sociales .contenedor .facebook:hover {
+	background: #3b5998;
+}
+footer .redes-sociales .contenedor .instagram:hover {
+	background: #e1306c;
+}
+
+footer .redes-sociales .contenedor .whatsapp:hover {
+	background: #25d366;
+}

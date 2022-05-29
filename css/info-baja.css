@@ -1,0 +1,16 @@
+.info-baja {
+    background-image: url('../img/general/darkness.png');
+    background-attachment: fixed;
+    padding: 80px 0;
+}
+
+body .info-baja .contacto .titulo {
+	color: #48A2D6;
+	font-size: 34px;
+	line-height: 34px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+}
+

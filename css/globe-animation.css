@@ -1,0 +1,30 @@
+.globe-container {
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+
+.globe-element {
+  /* margin-top: -85%; */
+  height: 70%;
+  /* margin-left: 15%; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.circular-text {
+  animation: spin 20s linear infinite;
+  display: block;
+  color: white;
+}
